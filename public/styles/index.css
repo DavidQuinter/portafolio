@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+    position: relative;
+}
+body::-webkit-scrollbar {
+    width: 8px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--gray-color);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+background: rgba(120, 122, 120, 0.70);
+}
+
+html, body{
+    box-sizing: border-box;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Wix Madefor Display', sans-serif;
+    background-color: var(--black2-color);
+    scroll-behavior: smooth;
+}
