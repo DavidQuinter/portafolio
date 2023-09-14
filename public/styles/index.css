@@ -23,9 +23,7 @@ background: rgba(120, 122, 120, 0.70);
 
 html, body{
     box-sizing: border-box;
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-family: 'Wix Madefor Display', sans-serif;
+    font-family: 'Noto Sans Old Permic', sans-serif;
     background-color: var(--black2-color);
     scroll-behavior: smooth;
 }

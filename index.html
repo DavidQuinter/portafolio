@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Davitodev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Old+Permic&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./public/logo/logo-blanco.png"/>
     <link rel="preload" href="./public/styles/imports.css" as="style"/>
     <link rel="stylesheet" href="./public/styles/imports.css" />
@@ -62,7 +65,7 @@
           <a href="#contact">Cotiza tu proyecto</a>
         </article>
         <article class="poster-container">
-          <img src="./public/images/Poster.png" alt="" />
+          <img src="./public/images/Poster.jpg" alt="" />
         </article>
       </section>
       <section class="main">
@@ -158,42 +161,28 @@
         <article id="services">
           <h2 class="title-of-section">Services</h2>
           <br />
-          <div class="d-flex res-atrop">
-            <div class="atropos my-atropos">
-              <div class="atropos-scale">
-                <div class="atropos-rotate">
-                  <div class="atropos-inner bg-img1">
-                    <div class="my-second-atropos text-hover">
-                      <h2 data-atropos-offset="5">
-                        Diseño de aplicaciones web
-                      </h2>
-                    </div>
-                  </div>
+          <div class="d-flex">
+              <div class="card-animated">
+                <img src="./public/images/diseño.png">
+                <div class="text-animated">
+                  <h2>Diseño de aplicaciones web</h2>
+                  <p>Desarrollo web atractivo y funcional.</p>
                 </div>
               </div>
-            </div>
-            <div class="atropos g-card my-secondAtropos">
-              <div class="atropos-scale">
-                <div class="atropos-rotate">
-                  <div class="atropos-inner bg-img2">
-                    <div class="my-second-atropos text-hover">
-                      <h2 data-atropos-offset="5">Diseño de marca</h2>
-                    </div>
-                  </div>
+              <div class="card-animated">
+                <img src="./public/images/tenis.png">
+                <div class="text-animated">
+                  <h2>Diseño de marca</h2>
+                  <p>Desarrollo web atractivo y funcional.</p>
                 </div>
               </div>
-            </div>
-            <div class="atropos g-card my-thirdAtropos">
-              <div class="atropos-scale">
-                <div class="atropos-rotate">
-                  <div class="atropos-inner bg-img3">
-                    <div class="my-second-atropos text-hover">
-                      <h2 data-atropos-offset="5">Soporte tecnico</h2>
-                    </div>
-                  </div>
+              <div class="card-animated">
+                <img src="./public/images/gato.png">
+                <div class="text-animated">
+                  <h2>Soprte técnico</h2>
+                  <p>Desarrollo web atractivo y funcional.</p>
                 </div>
               </div>
-            </div>
           </div>
         </article>
         <article id="projects">
@@ -262,26 +251,5 @@
     </main>
     <script src="./src/modules/form.js"></script>
     <script src="./src/modules/nav.js"></script>
-    <script src="./node_modules/atropos/atropos.min.js"></script>
-    <script>
-      const myAtropos = Atropos({
-        el: ".my-atropos",
-        // rest of parameters
-        activeOffset: 50,
-        shadowScale: 5,
-      });
-      const mySecondAtropos = Atropos({
-        el: ".my-secondAtropos",
-        // rest of parameters
-        activeOffset: 50,
-        shadowScale: 5,
-      });
-      const myThirdAtropos = Atropos({
-        el: ".my-thirdAtropos",
-        // rest of parameters
-        activeOffset: 50,
-        shadowScale: 5,
-      });
-    </script>
   </body>
 </html>

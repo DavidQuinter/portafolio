@@ -142,6 +142,45 @@ background: rgba(49, 49, 49, 0.80);
     display: flex;
     justify-content: space-evenly;
 }
+.card-animated{
+    width: 300px;
+    height: 450px;
+    background-color: var(--black-color);
+    border-radius: 20px;
+    position: relative;
+}
+.card-animated img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s;
+}
+.card-animated:hover img {
+    transform: scale(1.2);
+}
+.text-animated{
+    width: 90%;
+    position: absolute;
+    bottom: 10%;
+    transform: translateX(5%);
+    border-radius: 1rem;
+    background: rgba(31, 31, 31, 0.34);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+}
+.text-animated p{
+    display: none;
+}
+.text-animated h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+line-height: normal;
+}
+
+/*
 .my-atropos {
     width: 400px;
     height: 520px;
@@ -149,6 +188,7 @@ background: rgba(49, 49, 49, 0.80);
 .atropos{
     background-color: #fff;
 }
+*/
 .g-card{
     width: 400px;
     height: 520px;
