@@ -115,7 +115,7 @@
 
 .serv-sections{
     border-radius: 1rem;
-background: rgba(49, 49, 49, 0.80);
+    background: rgba(49, 49, 49, 0.80);
     grid-area: 3 / 2 / 4 / 4;
     display: flex;
     flex-wrap: wrap;
@@ -135,7 +135,6 @@ background: rgba(49, 49, 49, 0.80);
     background-color: #fff;
     position:absolute;
     transform: translateY(80px);
-
 }
 .d-flex{
     width: 100%;
